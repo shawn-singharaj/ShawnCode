@@ -1,0 +1,99 @@
+@INVALID_USER_ID = 369b336b8c8867f2cc165159
+@STUDY_ID = 682ba594da149b2c8d498773
+
+### NOTE: Replace the value of the variable GRAY_USER_ID with the value
+###     of "_id" in the response to the following request, i.e., Request 1.
+###     Don't change the value of the variable INVALID_USER_ID
+
+### Request 1: Create a user
+### Response
+### Status Code: 201
+### Body: JSON for the newly created user
+POST http://localhost:3000/studysessions HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Study Session Grudy Meshin",
+    "full_dur": 200,
+    "num_breaks": 4,
+    "break_dur": 5,
+    "long_break_dur": 20,
+    "study_dur": 25,
+    "study_link": "https://youtu.be/rBpApqtG7Us?si=kwFthg-jaZMDUKuO",
+    "break_link": "https://youtu.be/rBpApqtG7Us?si=kwFthg-jaZMDUKuO" 
+}
+
+### Request 2: Create a user
+### Response
+### Status Code: 201
+### Body: JSON for the newly created user
+POST http://localhost:3000/studysessions HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Study Session 2",
+    "full_dur": 150,
+    "num_breaks": 3,
+    "break_dur": 5,
+    "long_break_dur": 15,
+    "study_dur": 33,
+    "study_link": "https://youtu.be/rBpApqtG7Us?si=kwFthg-jaZMDUKuO",
+    "break_link": "https://youtu.be/rBpApqtG7Us?si=kwFthg-jaZMDUKuO" 
+}
+
+
+### Request 7: Retrieve all
+### Response
+### Status Code: 200 
+### Body: An array with 6 studysessions
+GET http://localhost:3000/studysessions HTTP/1.1
+
+
+### Request 13: Retrieve by name
+### Response
+### Status Code: 200 
+#GET http://localhost:3000/studysessions?name=Default HTTP/1.1
+
+
+### Request 15: Retrieve by _id
+### Response
+### Status Code: 200 
+GET http://localhost:3000/studysessions/{{STUDY_ID}} HTTP/1.1
+
+### Request 16: Retrieve by _id, non-existent 
+### Response
+### Status Code: 404
+### Body: {"Error": "Not found"}
+GET http://localhost:3000/studysessions/{{INVALID_USER_ID}} HTTP/1.1
+
+### Update 
+### Status Code: 200
+PUT http://localhost:3000/studysessions/{{STUDY_ID}} HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Study Session 1",
+    "full_dur": 200,
+    "num_breaks": 3,
+    "break_dur": 4,
+    "long_break_dur": 20,
+    "study_dur": 25,
+    "study_link": "https://youtu.be/rBpApqtG7Us?si=kwFthg-jaZMDUKuO",
+    "break_link": "https://youtu.be/rBpApqtG7Us?si=kwFthg-jaZMDUKuO" 
+}
+
+### Status Code: 204
+### Body: Empty
+DELETE http://localhost:3000/studysessions/{{STUDY_ID}} HTTP/1.1
+
+
+### Status Code: 404
+### Body: {"Error": "Not found"}
+DELETE http://localhost:3000/studysessions/{{STUDY_ID}} HTTP/1.1
+
+
+### Request 27: Retrieve all studysessions
+### Response
+### Status Code: 200 
+### Body: An empty array
+GET http://localhost:3000/studysessions HTTP/1.1
