@@ -1,4 +1,0 @@
-﻿  Assembling proj5_carlberg (1).asm...
-c:\Irvine\SmallWin.inc(11): warning A4011: multiple .MODEL directives found : .MODEL ignored
-  LINK : C:\cs271\Project5\Debug\Project.exe not found or not built by the last incremental link; performing full link
-  Project.vcxproj -> C:\cs271\Project5\Debug\Project.exe
