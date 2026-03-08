@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\cs271\\Project6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4164AA65-1EF9-4E69-899B-D1BED776070B}|Project.vcxproj|C:\\cs271\\Project6\\Proj6_singhars.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4164AA65-1EF9-4E69-899B-D1BED776070B}|Project.vcxproj|solutionrelative:Proj6_singhars.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4164AA65-1EF9-4E69-899B-D1BED776070B}|Project.vcxproj|C:\\cs271\\Project6\\Temps090124.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4164AA65-1EF9-4E69-899B-D1BED776070B}|Project.vcxproj|solutionrelative:Temps090124.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Proj6_singhars.asm",
+              "DocumentMoniker": "C:\\cs271\\Project6\\Proj6_singhars.asm",
+              "RelativeDocumentMoniker": "Proj6_singhars.asm",
+              "ToolTip": "C:\\cs271\\Project6\\Proj6_singhars.asm",
+              "RelativeToolTip": "Proj6_singhars.asm",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-17T05:02:28.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Temps090124.txt",
+              "DocumentMoniker": "C:\\cs271\\Project6\\Temps090124.txt",
+              "RelativeDocumentMoniker": "Temps090124.txt",
+              "ToolTip": "C:\\cs271\\Project6\\Temps090124.txt",
+              "RelativeToolTip": "Temps090124.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-17T05:00:57.588Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
