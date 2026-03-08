@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.weekly-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.weekly-table th,
+.weekly-table td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  vertical-align: top;
+  width: 14.2%; /* 100% / 7 days */
+}
+
+.event-item {
+  background-color: #287bb6;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.daily-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.daily-table th,
+.daily-table td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  vertical-align: top;
+  width: 14.2%; /* 100% / 7 days */
+}
+
