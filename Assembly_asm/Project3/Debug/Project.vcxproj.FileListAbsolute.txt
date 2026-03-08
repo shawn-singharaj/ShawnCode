@@ -1,2 +1,0 @@
-C:\cs271\Project0\Debug\Project.exe
-C:\cs271\Project3\Debug\Project.exe
